@@ -1,3 +1,11 @@
+Vortexflow is a data processing platform. This platform receives high amounts of data. So here we should make sure that the system should not crash, it should utilize all the cpu cores
+
+of the system efficiently. We use parallel processing, so that we can gain high throughput. It should be a fault tolerant self healing system meaning that even if one part of the system
+
+is failed the other part should work flawlessly. We can use a supervisor object which identifies this fault and heals it. The routing of the data should also be taken care.
+
+
+
 1. For this project we are using "Actor design pattern". 
 2. As per this design pattern we are imposing following conditions:
 
